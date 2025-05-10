@@ -13,6 +13,12 @@ nav{
 
 nav a{
     margin: 0 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: brown;
+    text-decoration:underline;
 }
 
 /* hero */
@@ -114,12 +120,55 @@ main {
 }
 
 /* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #dcdcde;
+    margin: 0;
+    padding: 30px;
+}
+
+.rakuten img{
+    width: 50px;
+}
+
+.box{
+    flex: 1;
+}
+
+h3{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.copy{
+    padding: 50px;
+    align-self: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: dimgray;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer p{
+    color: dimgray;
+    font-size: 14px;
+}
+
+footer img{
+    display: block;
+    padding-bottom: 15px;
+}
 
 /* media */
 
 @media screen and (max-width: 900px) {
     main {
-        padding: 30px 20px;
+        padding: 30px 10px;
     }
 
     .grid_content{
