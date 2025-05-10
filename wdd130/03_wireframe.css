@@ -1,5 +1,11 @@
 /* body */
 
+body{
+    font-family:sans-serif;
+    margin: 0;
+    padding-top: 20px;
+}
+
 /* header */
 .logo{
     width: 80px;
@@ -97,7 +103,7 @@ nav a:hover{
 
 /* main */
 main {
-    padding: 30px 100px;
+    padding: 30px 150px;
 }
 .grid_content{
     display: grid;
@@ -141,7 +147,7 @@ h3{
     font-size: 16px;
 }
 .copy{
-    padding: 50px;
+    padding: 0 100px;
     align-self: center;
 }
 
@@ -164,15 +170,27 @@ footer img{
     padding-bottom: 15px;
 }
 
-/* media */
 
+/* media */
 @media screen and (max-width: 900px) {
+
+    /* main */
     main {
-        padding: 30px 10px;
+        padding: 30px 5px;
     }
 
     .grid_content{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    /* footer */
+    .rakuten img{
+        width: 50px;
+    }
+
+    footer{
+        flex-direction: column;
+        align-items: center;
     }
 }
