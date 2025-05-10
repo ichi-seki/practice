@@ -178,6 +178,10 @@ footer img{
     nav{
         margin: 0;
     }
+    
+    .hide{
+        display: none;
+    }
 
     /* main */
     main {
