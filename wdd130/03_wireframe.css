@@ -195,6 +195,19 @@ footer img{
         align-items: center;
     }
 
+    .box p, h3{
+        text-align: center;
+    }
+
+    footer img{
+        display:inline-block;
+        margin-left: 50px;
+    }
+
+    .youtube img{
+        margin-left: 0;
+    }
+
     .copy{
         margin: 50px 0 30px 0;
     }
